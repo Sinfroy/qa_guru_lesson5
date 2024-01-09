@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SelenideWikiSearchTest {
 
     @Test
-    void ShouldFindJUnit5_codesample() {
+    void shouldFindJUnit5Codesample() {
         Configuration.browserSize = "1920x1080";
         Configuration.pageLoadStrategy = "eager";
 
